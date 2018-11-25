@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Category'
-  s.version          = '4'
+  s.version          = '5'
   s.summary          = 'A short description of Category.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                       TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/pinyinsong/Category'
@@ -39,5 +39,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SDWebImage'
 end
