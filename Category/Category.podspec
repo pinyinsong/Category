@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Category'
-  s.version          = '1'
+  s.version          = '4'
   s.summary          = 'A short description of Category.'
 
 # This description is used to generate tags and improve search results.
@@ -28,10 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/pinyinsong/Category.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.platform     = :ios, "9.0"
 
-  s.source_files = 'Category/Classes/*.{h,m}'
-  
+  s.source_files = 'code/'
+  s.requires_arc = true
+
   # s.resource_bundles = {
   #   'Category' => ['Category/Assets/*.png']
   # }
